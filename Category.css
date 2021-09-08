@@ -1,0 +1,160 @@
+* {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+}
+
+header {
+	position: relative;
+	width: 99%;
+	height: 140px;
+	margin: 0 auto;
+	top: 8px;
+	border-bottom: 2px solid #e5e5e5;
+	background-color: rgba(110, 110, 110, 0.3);
+}
+
+header .logo {
+	display: flex;
+	width: 15%;
+	float: left;
+	text-align: center;
+	font-size: 26.9px;
+	position: relative;
+	top: 20px;
+	left: 10px;
+}
+
+header .logo div {
+	border-radius: 20%;
+	box-shadow: 0 4px 8px 0 rgb(12, 12, 12);
+	background-color: white;
+}
+
+header .head {
+	position: relative;
+	width: 80%;
+	height: 55px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	right: -40px;
+}
+
+header .head ul li {
+	list-style: none;
+	float: left;
+	padding: 5px;
+	margin: 5px;
+}
+
+header .head ul li a {
+	font-size: 17.5px;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+	color: black;
+}
+
+header .search {
+	width: 13%;
+	height: 55px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	top: -10px;
+	left: 230px;
+}
+
+header .search input {
+	width: 373%;
+	height: 40px;
+	padding: 10px;
+	color: #757575;
+	border: 2px solid black;
+	outline: none;
+	left: -150px;
+	top: -12px;
+}
+
+header .search button {
+	width: auto;
+	height: 50px;
+	padding: 8px;
+	border-radius: 10px;
+	border: 2px solid black;
+	position: relative;
+	text-decoration: none;
+	color: #f5f5f5;
+	background-color: #12125d;
+	box-shadow: 0 4px 8px 2px rgb(12 12 12/ 62%);
+	left: 585px;
+	top: -58px;
+	font-family: Georgia, 'Times New Roman', Times, sans-serif;
+	font-size: 20px;
+}
+
+header .acc_cart {
+	float: right;
+	padding: 5px;
+	margin: 5px;
+	top: -40px;
+	right: 70px;
+}
+
+header .acc_cart .user {
+	padding: 8px;
+	border-radius: 10px;
+	width: auto;
+	text-align: right;
+	right: -15px;
+	font-family: Georgia, 'Times New Roman', Times, sans-serif;
+	color: ghostwhite;
+	font-size: 20px;
+	background-color: #12125d;
+	box-shadow: 0 4px 8px 2px rgb(12 12 12/ 62%);
+}
+
+header .acc_cart .cart {
+	padding: 8px;
+	border-radius: 10px;
+	width: auto;
+	right: -40px;
+	text-align: right;
+	font-family: Georgia, 'Times New Roman', Times, sans-serif;
+	color: ghostwhite;
+	font-size: 20px;
+	background-color: #12125d;
+	box-shadow: 0 4px 8px 2px rgb(12 12 12/ 62%);
+}
+
+nav {
+	width: 99%;
+	height: 60px;
+	margin: 5px auto;
+	padding: 20px;
+	top: 10px;
+	background: #009ea5;
+	text-align: center;
+	list-style: none;
+	border: 1px solid rgb(16, 42, 137);
+}
+
+nav a {
+	position: relative;
+	text-decoration: none;
+	padding: 10px;
+	margin: 0px 20px;
+	color: #f5f5f5;
+	left: 110px;
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	bottom: 40%;
+}
+
+.cat_items {
+	position: relative;
+	max-width: 400px;
+	margin: 10px 25px;
+}
